@@ -24,7 +24,7 @@ class Monedas {
             $VALUE = substr($BUFIN, $POSVALUE);
             $POS = strpos($VALUE, '>');
             $DATA = substr($VALUE, $POS +1);
-            $DATA = substr($DATA, 0, 5);
+            $DATA = substr($DATA, 1, 4);
             $USD = $DATA;
 
             $DATATASA = 'EUR';
@@ -38,7 +38,7 @@ class Monedas {
             $VALUE = substr($BUFIN, $POSVALUE);
             $POS = strpos($VALUE, '>');
             $DATA = substr($VALUE, $POS +1);
-            $DATA = substr($DATA, 0, 5);
+            $DATA = substr($DATA, 1, 4);
             $EUR = $DATA;
 
             $DATATASA = 'RUB';
@@ -52,7 +52,7 @@ class Monedas {
             $VALUE = substr($BUFIN, $POSVALUE);
             $POS = strpos($VALUE, '>');
             $DATA = substr($VALUE, $POS +1);
-            $DATA = substr($DATA, 0, 5);
+            $DATA = substr($DATA, 1, 4);
             $RUB = $DATA;
 
             $DATATASA = 'CNY';
@@ -66,7 +66,7 @@ class Monedas {
             $VALUE = substr($BUFIN, $POSVALUE);
             $POS = strpos($VALUE, '>');
             $DATA = substr($VALUE, $POS +1);
-            $DATA = substr($DATA, 0, 5);
+            $DATA = substr($DATA, 1, 4);
             $CNY = $DATA;
 
             $DATATASA = 'TRY';
@@ -80,7 +80,7 @@ class Monedas {
             $VALUE = substr($BUFIN, $POSVALUE);
             $POS = strpos($VALUE, '>');
             $DATA = substr($VALUE, $POS +1);
-            $DATA = substr($DATA, 0, 5);
+            $DATA = substr($DATA, 1, 4);
             $TRY = $DATA;
 
             $FECHAP = 'Fecha Valor';
