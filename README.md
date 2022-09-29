@@ -1,4 +1,4 @@
-# APIBDV
+# APIBCV
 API para consulta del tipo de cambio publicado por el BCV (Banco Central de Venezuela)
 
 API que devuelve informacióndel tipo de cambio en la pagina oficinal del Banco Central de Venezuela junto con su valor en Bs. haciendo uso de webscraping, dicha información la retorna en formato JSON para ser usada en proyectos de calculadora o convertidores para aplicaciones realizadas en territorio venezolano o para uso libre y de apoyo.
